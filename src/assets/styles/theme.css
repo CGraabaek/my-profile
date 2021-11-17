@@ -1,0 +1,50 @@
+:root {
+    --primary-color: #302ae6;
+    --secondary-color: #536390;
+    --font-secondary-color: #002B52;
+    --font-color: #434a54;
+    --font-shadow: 0 0 5px #434a54;
+    /* --bg-color: #E1E5EB; */
+    --bg-color: #F5F6FA;
+    /* --menu-bg-color: #B3BDCC; */
+    --menu-bg-color: #F5F6FA;
+    --heading-color: #292922;
+
+    /*  CHARTS COLOR */
+    --chart-bg-color: #FFF;
+    --chart-box-shadow: 0 22px 35px -16px rgba(0, 0, 0, 0.71);
+    --hr-color: #343e59;
+
+    /* CARDS */
+    --card-bg-color: #FFF;
+    --card-box-shadow: 0 22px 35px -16px rgba(0, 0, 0, 0.71);
+    --card-title-font-color: #F5365C;
+    --card-title-font-shadow: 0 0 5px rgba(245, 54, 92, 1);
+    --terminal-font-color: #434a54;
+    --link-bg-color: #F5365C;
+    --link-color: #fc0df6;
+}
+
+[data-theme="dark"] {
+    --primary-color: #9a97f3;
+    --secondary-color: #818cab;
+    --font-color: #CEDBED;
+    --font-secondary-color: #002B52;
+    --font-shadow: 0 0 5px #ffffff;
+    --bg-color: #0A192A;
+    --menu-bg-color: #17283F;
+    --heading-color: #818cab;
+    /*  CHARTS COLOR */
+    --chart-bg-color: #002B52;
+    --chart-box-shadow: 0 22px 35px -16px rgba(0, 0, 0, 0.71);
+    --hr-color: #343e59;
+    --burger-color: #e1e1ff;
+    /* CARDS */
+    --card-bg-color: #002B52;
+    --card-box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.3);
+    --card-title-font-color: #F5365C;
+    --card-title-font-shadow: 0 0 5px rgba(245, 54, 92, 1);
+    --terminal-font-color: #a0aec0;
+    --link-bg-color: #F5365C;
+    --link-color: #8ae1b1;
+}
