@@ -1,74 +1,69 @@
 <template>
-  <div class="css-1mskyc">
-    <div class="css-ckwepf">
-      <div class="chakra-stack css-chjxg7">
-        <span class="css-tspso6"></span>
-        <span class="css-sz633s"></span>
-        <span class="css-53bkua"></span>
+  <div class="terminal-container">
+    <div class="terminal-header">
+      <div class="terminal-header-menu">
+        <span class="terminal-green-button"></span>
+        <span class="terminal-orange-button"></span>
+        <span class="terminal-red-button"></span>
       </div>
-      <div class="css-1xc8e1l">
-        <p class="chakra-text css-1dkag2f">Executing: introduceSelf.js</p>
+      <div class="terminal-header-text-container">
+        <p>Executing: introduceSelf.js</p>
       </div>
     </div>
-    <div class="css-ajr81h">
+    <div class="terminal-body-container">
       <div class="css-1k2diov"></div>
-      <div class="chakra-stack css-9ejloj">
-        <div class="chakra-stack css-he5js">
-          <div class="css-18a08b1">
-            <span class="css-h2welu">&gt;</span> self.learnAboutMe()
+      <div class="terminal-body-content">
+        <div class="about-row">
+          <div class="about-title-text">
+            <span class="greater-than">&gt;</span> self.learnAboutMe()
           </div>
-          <p class="chakra-text css-3t6u9o">
+          <p class="about-text">
             Press enter to see what I am about
           </p>
         </div>
-        <div class="chakra-stack css-c6xv5k">
-          <div class="css-18a08b1">
-            <span class="css-h2welu">&gt;</span> self.currentLocation
+        <div class="about-row">
+          <div class="about-title-text">
+            <span class="greater-than">&gt;</span> self.currentLocation
           </div>
-          <p class="chakra-text css-3t6u9o">"Aarhus, DK"</p>
+          <p class="about-text">"Aarhus, DK"</p>
         </div>
-        <div class="chakra-stack css-c6xv5k">
-          <div class="css-18a08b1">
-            <span class="css-h2welu">&gt;</span> self.interests
+        <div class="about-row">
+          <div class="about-title-text">
+            <span class="greater-than">&gt;</span> self.interests
           </div>
-          <p class="chakra-text css-1vtl318">
-            ["web dev", "running", "motorcycles"]
+          <p class="about-text">
+            ["web dev", "running", "bouldering", "motorcycles"]
           </p>
         </div>
-        <div class="chakra-stack css-c6xv5k">
-          <div class="css-18a08b1">
-            <span class="css-h2welu">&gt;</span> self.education
+        <div class="about-row">
+          <div class="about-title-text">
+            <span class="greater-than">&gt;</span> self.education
           </div>
-          <p class="chakra-text css-1vtl318">"MSc in Computer Engineering"</p>
+          <p class="about-text">"MSc in Computer Engineering"</p>
         </div>
-        <div class="chakra-stack css-c6xv5k">
-          <div class="css-18a08b1">
-            <span class="css-h2welu">&gt;</span> self.skills
+        <div class="about-row">
+          <div class="about-title-text">
+            <span class="greater-than">&gt;</span> self.skills
           </div>
-          <p class="chakra-text css-1vtl318">
+          <p class="about-text">
             [ "JavaScript", "Python", "VueJS" ]
           </p>
         </div>
-        <div class="chakra-stack css-c6xv5k">
-          <div class="css-18a08b1">
-            <span class="css-h2welu">&gt;</span> self.contactMe()
+        <div class="about-row">
+          <div class="about-title-text">
+            <span class="greater-than">&gt;</span> self.contactMe()
           </div>
-          <p class="chakra-text css-1vtl318">
+          <p class="about-text">
             ["<a
               style="color: #fc0df6; font-weight: 500"
               rel="noopener"
-              href="https://www.linkedin.com"
+              href="https://www.linkedin.com/in/christian-graab%C3%A6k-steenfeldt-563879ab/"
               >LinkedIn</a
             >", "<a
               style="color: #fc0df6; font-weight: 500"
               rel="noopener"
               href="https://github.com/cgraabaek"
               >Github</a
-            >", "<a
-              rel="noopener"
-              style="color: #fc0df6; font-weight: 500"
-              href="https://www.instagram.com/accounts/login/"
-              >Instagram</a
             >"]
           </p>
         </div>
@@ -78,51 +73,31 @@
 </template>
 
 <style scoped>
-.css-1mskyc {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
+.terminal-container {
   display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
   flex-direction: column;
   min-height: 300px;
   width: 100%;
   max-width: 80rem;
-  -webkit-margin-start: auto;
   margin-inline-start: auto;
-  -webkit-margin-end: auto;
   margin-inline-end: auto;
   margin-top: 4rem;
 }
 
-.css-1xc8e1l {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
+.terminal-header-text-container {
   display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
   justify-content: center;
-  -webkit-margin-start: auto;
   margin-inline-start: auto;
-  -webkit-margin-end: auto;
   margin-inline-end: auto;
   height: 36 px;
   width: 100%;
   position: absolute;
 }
 
-.css-ckwepf {
+.terminal-header {
   display: flex;
-  -webkit-box-align: center;
   align-items: center;
-  -webkit-box-pack: start;
   justify-content: flex-start;
   width: 100%;
   position: relative;
@@ -132,39 +107,34 @@
   background: rgba(0, 0, 0, 0.4);
 }
 
-.css-chjxg7 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
+.terminal-header-menu {
   display: flex;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
   flex-direction: row;
   margin-left: 1.25rem;
 }
 
-.css-tspso6 {
+.terminal-green-button {
   background: #f56565;
   height: 12px;
   width: 12px;
   border-radius: 999px;
 }
 
-.css-sz633s {
+.terminal-orange-button {
   background: #ed8936;
   height: 12px;
   width: 12px;
   border-radius: 999px;
 }
 
-.css-53bkua {
+.terminal-red-button {
   background: #32cc77;
   height: 12px;
   width: 12px;
   border-radius: 999px;
 }
 
-.css-chjxg7 > *:not(style) ~ *:not(style) {
+.terminal-header-menu > *:not(style) ~ *:not(style) {
   margin-top: 0px;
   -webkit-margin-end: 0px;
   margin-inline-end: 0px;
@@ -173,7 +143,7 @@
   margin-inline-start: 0.5rem;
 }
 
-.css-ajr81h {
+.terminal-body-container {
   display: flex;
   width: 100%;
   height: 100%;
@@ -197,26 +167,20 @@
   z-index: -5;
 }
 
-.css-he5js {
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  visibility: visible;
-}
 
-.css-18a08b1 {
+.about-title-text {
   display: flex;
   font-family: "Courier New", Courier, monospace;
   font-size: 1.125rem;
 }
 
-.css-h2welu {
+.greater-than {
   margin-right: 0.5rem;
   color: #fc0df6;
   font-weight: 700;
 }
 
-.css-9ejloj {
+.terminal-body-content {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -224,36 +188,18 @@
   padding: 1.25rem;
 }
 
-.css-3t6u9o {
+.about-text {
   font-family: "Courier New", Courier, monospace;
   font-size: 1.125rem;
   color: var(--terminal-font-color);
-
   visibility: visible;
   align-self: flex-start;
 }
 
-.css-1vtl318 {
-  font-family: "Courier New", Courier, monospace;
-  font-size: 1.125rem;
-  color: var(--terminal-font-color);
-  align-self: flex-start;
-}
-
-.css-18a08b1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
+.about-title-text {
   display: flex;
   font-family: "Courier New", Courier, monospace;
   font-size: 1.125rem;
 }
 
-.css-3t6u9o {
-  font-family: "Courier New", Courier, monospace;
-  font-size: 1.125rem;
-  color: var(--terminal-font-color);
-  visibility: visible;
-  align-self: flex-start;
-}
 </style>
