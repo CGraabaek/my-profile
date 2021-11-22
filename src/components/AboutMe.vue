@@ -1,9 +1,9 @@
 <template>
-  <div class="css-96w5vx">
-    <div class="chakra-skeleton css-qz9p4w">
+  <div class="about-me-container">
+    <div class="about-me-body">
       <img
-        alt="Michael Hall"
-        class="chakra-image css-1rqqvn4"
+        alt="Christian Graabaek"
+        class="profile-picture"
         src="@/assets/profile.jpeg"
       />
     </div>
@@ -23,7 +23,7 @@
 </template>
 
 <style scoped>
-.css-96w5vx {
+.about-me-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -34,7 +34,7 @@
   max-width: 80rem;
 }
 
-.css-qz9p4w {
+.about-me-body {
   animation: 0s ease 0s 1 normal none running none;
   width: 250px;
   height: 250px;
@@ -42,7 +42,7 @@
   margin: 50px;
 }
 
-.css-1rqqvn4 {
+.profile-picture {
   object-fit: cover;
   flex-grow: 3;
   border-radius: 1rem;
@@ -63,7 +63,7 @@
   font-weight: 700;
   font-size: 3rem;
   line-height: 1.33;
-  background-image: linear-gradient(to right, #50d38b, #38b2ac, #63b3ed);
+  background-image: linear-gradient(to right, var(--gradient-color-1), var(--gradient-color-2), var(--gradient-color-3));
   color: transparent;
   background-clip: text;
   text-align: center;
@@ -100,7 +100,7 @@
 }
 
 @media screen and (min-width: 62em) {
-  .css-96w5vx {
+  .about-me-container {
     flex-direction: row;
   }
   .css-1pme72q {
@@ -114,7 +114,7 @@
 }
 
 @media screen and (min-width: 80em) {
-  .css-96w5vx {
+  .about-me-container {
     margin-top: 4rem;
     margin-bottom: 4rem;
   }

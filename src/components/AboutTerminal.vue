@@ -13,14 +13,12 @@
     <div class="terminal-body-container">
       <div class="css-1k2diov"></div>
       <div class="terminal-body-content">
-        <div class="about-row">
+        <!-- <div class="about-row">
           <div class="about-title-text">
             <span class="greater-than">&gt;</span> self.learnAboutMe()
           </div>
-          <p class="about-text">
-            Press enter to see what I am about
-          </p>
-        </div>
+          <p class="about-text">Press enter to see what I am about</p>
+        </div> -->
         <div class="about-row">
           <div class="about-title-text">
             <span class="greater-than">&gt;</span> self.currentLocation
@@ -45,9 +43,7 @@
           <div class="about-title-text">
             <span class="greater-than">&gt;</span> self.skills
           </div>
-          <p class="about-text">
-            [ "JavaScript", "Python", "VueJS" ]
-          </p>
+          <p class="about-text">[ "JavaScript", "Python", "VueJS" ]</p>
         </div>
         <div class="about-row">
           <div class="about-title-text">
@@ -82,6 +78,8 @@
   margin-inline-start: auto;
   margin-inline-end: auto;
   margin-top: 4rem;
+  box-shadow: var(--chart-box-shadow);
+  border-radius: 1rem;
 }
 
 .terminal-header-text-container {
@@ -167,7 +165,6 @@
   z-index: -5;
 }
 
-
 .about-title-text {
   display: flex;
   font-family: "Courier New", Courier, monospace;
@@ -194,6 +191,11 @@
   color: var(--terminal-font-color);
   visibility: visible;
   align-self: flex-start;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space: nowrap; /* Keeps the content on a single line */
+  
+  letter-spacing: 0.15em; /* Adjust as needed */
+  animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite;
 }
 
 .about-title-text {
@@ -202,4 +204,25 @@
   font-size: 1.125rem;
 }
 
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
 </style>

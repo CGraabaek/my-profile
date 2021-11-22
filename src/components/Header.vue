@@ -6,9 +6,9 @@
 
     <div class="pull-right link-container">
       <div>
-        <a class="nav-link">Projects</a>
-        <a class="nav-link">Links</a>
-        <a class="nav-link">Tools</a>
+        <a class="nav-link" href="/#/projects">Projects</a>
+        <a class="nav-link" href="/#/links">Links</a>
+        <a class="nav-link" href="/#/tools">Tools</a>
       </div>
       <div>
         <theme-switcher></theme-switcher>
