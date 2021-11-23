@@ -6,7 +6,16 @@
       v-for="project in projects"
       v-bind:key="project.name"
     >
-      <about-project :title="project.name" :description="project.description" :image="project.image" :tags="project.tags" :cardPosition="project.cardPosition"> </about-project>
+      <about-project
+        :title="project.name"
+        :description="project.description"
+        :image="project.image"
+        :link="project.link"
+        :github="project.github"
+        :tags="project.tags"
+        :cardPosition="project.cardPosition"
+      >
+      </about-project>
     </div>
   </div>
 </template>
@@ -41,7 +50,9 @@ export default {
   flex-direction: column;
   margin-top: 4rem;
   margin-bottom: 4rem;
-  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
   height: 100%;
 }
 </style>
