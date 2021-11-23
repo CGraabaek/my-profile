@@ -14,7 +14,7 @@
           v-bind:class="{
             selected: selected == item.id,
           }"
-          @click="selected = item.id"
+          @click="setSelected(item.id)"
         >
           <svg
             v-if="item.id == 'mac'"
@@ -98,6 +98,10 @@ export default {
         background: type.color,
         color: type.fontcolor,
       };
+    },
+    setSelected(itemId) {
+      this.selected = itemId;
+      this.$parent.$emit("item-selected", itemId);
     },
   },
 };

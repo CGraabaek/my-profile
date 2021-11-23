@@ -26,7 +26,8 @@
     --gradient-color-1: #50d38b;
     --gradient-color-2: #38b2ac;
     --gradient-color-3: #63b3ed;
-
+    --transparent-bg: #E2E8F033;
+    --info-box-bg: #FFFFFF;
 
     /* The intrinsic width of the underline stroke (in pixels). This is 
    * the same as the height of the cap images. Don't specify the
@@ -67,7 +68,7 @@
     --primary-color: #9a97f3;
     --secondary-color: #818cab;
     --font-color: #CEDBED;
-    --font-secondary-color: #002B52;
+    --font-secondary-color: #a0aec0;
     --font-shadow: 0 0 5px #ffffff;
     --bg-color: #0A192A;
     --menu-bg-color: #17283F;
@@ -88,7 +89,8 @@
     --gradient-color-1: #fe8c00;
     --gradient-color-2: #FC6601;
     --gradient-color-3: #f83600;
-
+    --transparent-bg: #17192333;
+    --info-box-bg: #171923;
 
     /* The intrinsic width of the underline stroke (in pixels). This is 
    * the same as the height of the cap images. Don't specify the
