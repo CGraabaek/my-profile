@@ -1,5 +1,31 @@
 export const projects = [
     {
+        name: "Beta Boulder",
+        description: "Beta Boulder started as a project for me and my friends, where we could track which problems we did when bouldering. The project expanded, and is now available for everybody to use. ",
+        tags: [
+            { text: "VueJS", fontcolor: "#41B883", backgroundcolor: "#41B88333" },
+            { text: "NodeJS", fontcolor: "#D805C6", backgroundcolor: "#D805C633" },
+            { text: "Dokku", fontcolor: "#1396D7", backgroundcolor: "#1396D733" },
+        ],
+        image: "images/projects/beta-boulder.jpeg",
+        link: "https://beta-boulder.com/",
+        github: "",
+        cardPosition: "right"
+    },
+    {
+        name: "Platinum Mosaic",
+        description: "Platinum Mosaic is website where you can generate mosaics of your earned platinum trophies on Playstation. This is one of my first projects and also the most used, by other persons than me. VueJS is used for the frontend, Python for the backend and then hosted via Dokku.",
+        tags: [
+            { text: "VueJS", fontcolor: "#41B883", backgroundcolor: "#41B88333" },
+            { text: "Python", fontcolor: "#D805C6", backgroundcolor: "#D805C633" },
+            { text: "Dokku", fontcolor: "#1396D7", backgroundcolor: "#1396D733" },
+        ],
+        image: "images/projects/platinum-mosaic.png",
+        link: "https://plat.grayriver.dk/",
+        github: "",
+        cardPosition: "left"
+    },
+    {
         name: "Polyline Encoder",
         description: "For another project I needed to be able to quickly show a route from a set of coordinates. That resulted in me building this quick polyline encoder, which works with a lot of maps, for plotting a route.",
         tags: [{
@@ -8,7 +34,7 @@ export const projects = [
         image: "images/projects/polyline-encoder.png",
         link: "https://polyline-encoder.grayriver.dk/",
         github: "",
-        cardPosition: "left"
+        cardPosition: "right"
     },
     {
         name: "Color Generator",
@@ -18,6 +44,17 @@ export const projects = [
         }],
         image: "images/projects/color-generator.png",
         link: "https://polyline-encoder.grayriver.dk/",
+        github: "",
+        cardPosition: "left"
+    },
+    {
+        name: "Gwent Collector",
+        description: "Needing an easy way to track which Gwent cards I had already collected in The Witcher 3, i created this website to help me. It worked since I collected them all in my first playthrough.",
+        tags: [{
+            text: "VueJS", fontcolor: "#41B883", backgroundcolor: "#41B88333"
+        }],
+        image: "images/projects/gwent.png",
+        link: "https://gwent-collector.grayriver.dk",
         github: "",
         cardPosition: "right"
     },
