@@ -6,9 +6,9 @@
 
     <div class="pull-right link-container">
       <div>
-        <a class="nav-link">Projects</a>
-        <a class="nav-link">Links</a>
-        <a class="nav-link">Tools</a>
+        <a class="nav-link" href="/#/projects">Projects</a>
+        <a class="nav-link" href="/#/links">Links</a>
+        <a class="nav-link" href="/#/tools">Tools</a>
       </div>
       <div>
         <theme-switcher></theme-switcher>
@@ -81,16 +81,6 @@ export default {
   font-size: 22px;
 }
 
-@media screen and (min-width: 48em) {
-  .link-container {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    justify-content: space-between;
-  }
-}
-
 .link-container {
   align-items: center;
   flex-direction: row;
@@ -99,8 +89,6 @@ export default {
 
 a {
   position: relative;
-  /* display: block;
-  text-transform: uppercase; */
   margin: 20px 0;
   padding: 10px 20px;
   text-decoration: none;
@@ -147,5 +135,29 @@ a:hover:before {
 a:hover:after {
   transform: scaleY(1);
   opacity: 1;
+}
+
+@media screen and (min-width: 48em) {
+  .link-container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media screen and (max-width: 699px) {
+  .link-container {
+    display: flex;
+  }
+
+  a {
+    /* padding: unset; */
+    padding: 2px 5px;
+  }
+
+  .nav-link {
+    margin-right: 2px;
+  }
 }
 </style>

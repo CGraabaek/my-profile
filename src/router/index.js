@@ -1,6 +1,9 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Index from '@/pages/Index'
+import Projects from '@/pages/Projects'
+import Links from '@/pages/Links'
+import Tools from '@/pages/Tools'
 
 
 Vue.use(Router)
@@ -13,6 +16,21 @@ export default new Router({
             path: '/',
             name: 'Index',
             component: Index
+        },
+        {
+            path: '/projects',
+            name: 'Projects',
+            component: Projects
+        },
+        {
+            path: '/links',
+            name: 'Links',
+            component: Links
+        },
+        {
+            path: '/tools',
+            name: 'Tools',
+            component: Tools
         },
         // { path: '*', redirect: '/' }, // catch all use case
     ]
