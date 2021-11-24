@@ -7,7 +7,7 @@ export const projects = [
             { text: "NodeJS", fontcolor: "#D805C6", backgroundcolor: "#D805C633" },
             { text: "Dokku", fontcolor: "#1396D7", backgroundcolor: "#1396D733" },
         ],
-        image: "images/projects/beta-boulder.jpeg",
+        image: "images/projects/boulder.png",
         link: "https://beta-boulder.com/",
         github: "",
         cardPosition: "right"
