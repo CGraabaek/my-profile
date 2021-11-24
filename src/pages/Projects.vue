@@ -1,5 +1,5 @@
 <template>
-  <div class="title">
+  <div class="page-container">
     <fancy-title :title="'Projects'"></fancy-title>
     <div
       class="project-container"
@@ -40,8 +40,9 @@ export default {
 </script>
 
 <style scoped>
-.title {
+.page-container {
   text-align: center;
+  padding-bottom: 25px;
 }
 .project-container {
   display: flex;

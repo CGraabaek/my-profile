@@ -57,6 +57,7 @@ export default {
   align-items: center;
   color: var(--font-color);
   display: flex;
+  padding-top:10px;
 }
 
 .header-logo {

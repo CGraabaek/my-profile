@@ -1,24 +1,23 @@
 <template>
   <a :href="link" class="link-img-container"
     ><div class="inner-wrapper">
-      <div class="css-1jke4yk">
-        <tag
-          class="tag-position"
-          :text="tag"
-          :fontcolor="tagfontcolor"
-          :backgroundcolor="tagcolor"
-        ></tag>
-        <div class="css-mbamkv">
+      <div class="image-container">
+        <div class="inner-image-container">
           <img
             :alt="title + ' screenshot'"
             :src="require('@/assets/' + image)"
-            class="css-jettfe"
+            class="link-image"
           />
         </div>
       </div>
-      <div class="css-nhqtwa">
+      <div class="footer-wrapper">
         <div class="css-1noxsk3">
           <p class="css-1b98ksb">{{ title }}</p>
+          <tag
+            :text="tag"
+            :fontcolor="tagfontcolor"
+            :backgroundcolor="tagcolor"
+          ></tag>
           <!-- <p class="css-nv7hy7">2 months ago</p> -->
         </div>
       </div>
@@ -108,7 +107,7 @@ p {
     0 4px 6px -2px rgba(0, 0, 0, 0.05);
   overflow: hidden;
 }
-.css-1jke4yk {
+.image-container {
   position: relative;
   width: 100%;
 }
@@ -120,7 +119,7 @@ p {
   position: absolute;
 }
 
-.css-mbamkv {
+.inner-image-container {
   position: relative;
   max-width: 100%;
   width: 100%;
@@ -128,7 +127,7 @@ p {
   border-color: #2d3748;
 }
 
-.css-mbamkv > :not(style) {
+.inner-image-container > :not(style) {
   overflow: hidden;
   inset: 0px;
   display: flex;
@@ -140,12 +139,12 @@ p {
   height: 100%;
 }
 
-.css-jettfe {
+.link-image {
   object-fit: cover;
   object-position: 0px 0px;
 }
 
-.css-nhqtwa {
+.footer-wrapper {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -165,7 +164,7 @@ p {
   display: flex;
   -webkit-box-pack: justify;
   justify-content: space-between;
-  width: 100%;
+  width: 95%;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }

@@ -113,7 +113,8 @@ export default {
 
 
 <style scoped>
-h2 {
+
+/* h2 {
   margin: unset;
 }
 
@@ -123,7 +124,7 @@ h2 {
   border-width: 0;
   border-style: solid;
   box-sizing: border-box;
-}
+} */
 
 .project-wrapper {
   position: relative;
@@ -291,10 +292,6 @@ h2 {
     top: 0px;
     position: unset;
     transform: unset;
-  }
-
-  .project-image {
-    /* border-radius: unset; */
   }
 }
 </style>

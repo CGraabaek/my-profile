@@ -1,5 +1,5 @@
 <template>
-  <div class="title">
+  <div class="page-container">
     <fancy-title :title="'Links'"></fancy-title>
     <div class="links-container" >
       <link-card v-for="link in links" 
@@ -35,8 +35,9 @@ export default {
 </script>
 
 <style scoped>
-.title {
+.page-container {
   text-align: center;
+  padding-bottom: 25px;
 }
 
 .links-container {
