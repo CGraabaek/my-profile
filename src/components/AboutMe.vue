@@ -15,7 +15,7 @@
         off, and test things out. You can see what
         <a class="chakra-link css-duglel" href="/links"> websites</a>
         or the
-        <a class="chakra-link css-duglel" href="/links"> tools</a>
+        <a class="chakra-link css-duglel" href="/tools"> tools</a>
         that I like.
       </p>
     </div>

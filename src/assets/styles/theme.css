@@ -28,6 +28,7 @@
     --gradient-color-3: #63b3ed;
     --transparent-bg: #E2E8F033;
     --info-box-bg: #FFFFFF;
+    --card-border-color: #E2E8F033;
 
     /* The intrinsic width of the underline stroke (in pixels). This is 
    * the same as the height of the cap images. Don't specify the
@@ -42,7 +43,7 @@
     /* The colour used to draw the underline. It should match the colour
 * used in the cap images... unfortunately we can't modify the SVG
 * fill via CSS because it's a background image. */
-    --underline-color: #f39508;
+    --underline-color: #63b3ed;
 
     /* We need to know the width of the cap images so that we
 * can position everything on the x axis accordingly. */
@@ -84,13 +85,14 @@
     --card-title-font-color: #F5365C;
     --card-title-font-shadow: 0 0 5px rgba(245, 54, 92, 1);
     --terminal-font-color: #a0aec0;
-    --link-bg-color: #f83600;
+    --link-bg-color: #f39508;
     --link-color: #fe8c00;
     --gradient-color-1: #fe8c00;
     --gradient-color-2: #FC6601;
     --gradient-color-3: #f83600;
     --transparent-bg: #17192333;
     --info-box-bg: #171923;
+    --card-border-color: #2d3748;
 
     /* The intrinsic width of the underline stroke (in pixels). This is 
    * the same as the height of the cap images. Don't specify the

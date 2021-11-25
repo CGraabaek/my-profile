@@ -43,7 +43,7 @@
           <div class="about-title-text">
             <span class="greater-than">&gt;</span> self.skills
           </div>
-          <p class="about-text">[ "JavaScript", "Python", "VueJS" ]</p>
+          <p class="about-text">["JavaScript", "Python", "VueJS"]</p>
         </div>
         <div class="about-row">
           <div class="about-title-text">

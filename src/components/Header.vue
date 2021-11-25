@@ -1,14 +1,15 @@
 <template>
   <div class="custom-header">
     <span class="pull-left big-font">
-      <a href="/"><img class="logo-header" src="@/assets/logo.png" /></a>
+      <!-- <a href="/"><img class="logo-header" src="@/assets/logo.png" /></a> -->
+      <a href="/">Christian Graabaek</a>
     </span>
 
     <div class="pull-right link-container">
       <div>
-        <a class="nav-link" href="/#/projects">Projects</a>
-        <a class="nav-link" href="/#/links">Links</a>
-        <a class="nav-link" href="/#/tools">Tools</a>
+        <a class="nav-link" href="/projects">Projects</a>
+        <a class="nav-link" href="/links">Links</a>
+        <a class="nav-link" href="/tools">Tools</a>
       </div>
       <div>
         <theme-switcher></theme-switcher>
@@ -56,6 +57,7 @@ export default {
   align-items: center;
   color: var(--font-color);
   display: flex;
+  padding-top: 10px;
 }
 
 .header-logo {
