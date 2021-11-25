@@ -28,6 +28,7 @@
     --gradient-color-3: #63b3ed;
     --transparent-bg: #E2E8F033;
     --info-box-bg: #FFFFFF;
+    --card-border-color: #E2E8F033;
 
     /* The intrinsic width of the underline stroke (in pixels). This is 
    * the same as the height of the cap images. Don't specify the
@@ -91,6 +92,7 @@
     --gradient-color-3: #f83600;
     --transparent-bg: #17192333;
     --info-box-bg: #171923;
+    --card-border-color: #2d3748;
 
     /* The intrinsic width of the underline stroke (in pixels). This is 
    * the same as the height of the cap images. Don't specify the

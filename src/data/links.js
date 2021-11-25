@@ -55,5 +55,12 @@ export const links = [
         link: "https://wickedbackgrounds.com/backgrounds.html",
         description: "Generate backgrounds"
     },
+    {
+        name: "TL Draw",
+        tag: { text: "Draw", fontcolor: "#D805C6", backgroundcolor: "#D805C64D" },
+        image: "images/links/tldraw.png",
+        link: "https://www.tldraw.com/",
+        description: "Tiny little drawing app"
+    },
 ];
 

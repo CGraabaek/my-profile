@@ -11,8 +11,8 @@
         </div>
       </div>
       <div class="footer-wrapper">
-        <div class="css-1noxsk3">
-          <p class="css-1b98ksb">{{ title }}</p>
+        <div class="footer-row">
+          <p class="footer-title">{{ title }}</p>
           <tag
             :text="tag"
             :fontcolor="tagfontcolor"
@@ -96,15 +96,18 @@ p {
   align-items: flex-start;
   flex-direction: column;
   width: 100%;
-  background: #171923;
+  background: var(--transparent-bg);
+
+  /* background: #171923; */
   border-radius: 0.75rem;
   border-width: 1px;
   border-style: solid;
   border-image: initial;
-  border-color: #2d3748;
+  border-color: var(--transparent-bg);
+  /* border-color: var(--transparent-bg); */
+  /* border-color: #2d3748; */
   transition: all 0.25s ease 0s;
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
-    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
   overflow: hidden;
 }
 .image-container {
@@ -124,7 +127,7 @@ p {
   max-width: 100%;
   width: 100%;
   border-bottom-width: 1px;
-  border-color: #2d3748;
+  border-color: var(--card-border-color)
 }
 
 .inner-image-container > :not(style) {
@@ -154,22 +157,25 @@ p {
   padding-inline-end: 1rem;
   width: 100%;
   background: #171923;
+  /* background: #171923; */
+  background: var(--transparent-bg);
+
   border-width: 1px;
   border-style: solid;
   border-image: initial;
-  border-color: #171923;
+  border-color: var(--transparent-bg);
 }
 
-.css-1noxsk3 {
+.footer-row {
   display: flex;
-  -webkit-box-pack: justify;
+  align-items: center;
   justify-content: space-between;
-  width: 95%;
+  width: 100%;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
 
-.css-1b98ksb {
+.footer-title {
   font-size: 20px;
   overflow: hidden;
   text-overflow: ellipsis;

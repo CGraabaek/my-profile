@@ -26,6 +26,19 @@ export const projects = [
         cardPosition: "left"
     },
     {
+        name: "Stravify",
+        description: "I wanted to see all my running routes in one map, so i built Stravify as a way to see all routes in one map. The project expanded a bit, and now includes downloadable art, stats about your activities and more. This is by far the biggest project i have built to date.",
+        tags: [
+            { text: "VueJS", fontcolor: "#41B883", backgroundcolor: "#41B88333" },
+            { text: "NodeJS", fontcolor: "#D805C6", backgroundcolor: "#D805C633" },
+            { text: "Dokku", fontcolor: "#1396D7", backgroundcolor: "#1396D733" },
+        ],
+        image: "images/projects/stravify.png",
+        link: "https://stravify.com",
+        github: "",
+        cardPosition: "right"
+    },
+    {
         name: "Polyline Encoder",
         description: "For another project I needed to be able to quickly show a route from a set of coordinates. That resulted in me building this quick polyline encoder, which works with a lot of maps, for plotting a route.",
         tags: [{
@@ -34,7 +47,7 @@ export const projects = [
         image: "images/projects/polyline-encoder.png",
         link: "https://polyline-encoder.grayriver.dk/",
         github: "",
-        cardPosition: "right"
+        cardPosition: "left"
     },
     {
         name: "Color Generator",
@@ -45,7 +58,7 @@ export const projects = [
         image: "images/projects/color-generator.png",
         link: "https://polyline-encoder.grayriver.dk/",
         github: "",
-        cardPosition: "left"
+        cardPosition: "right"
     },
     {
         name: "Gwent Collector",
@@ -56,7 +69,7 @@ export const projects = [
         image: "images/projects/gwent.png",
         link: "https://gwent-collector.grayriver.dk",
         github: "",
-        cardPosition: "right"
+        cardPosition: "left"
     },
     {
         name: "My Website",
@@ -67,6 +80,6 @@ export const projects = [
         image: "images/projects/my-site.png",
         link: "https://grayriver.dk",
         github: "https://github.com/CGraabaek/my-profile",
-        cardPosition: "left"
+        cardPosition: "right"
     },
 ];
