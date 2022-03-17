@@ -62,5 +62,33 @@ export const links = [
         link: "https://www.tldraw.com/",
         description: "Tiny little drawing app"
     },
+    {
+        name: "UI Gradients",
+        tag: { text: "CSS", fontcolor: "#D805C6", backgroundcolor: "#D805C64D" },
+        image: "images/links/ui-gradients.png",
+        link: "https://uigradients.com/",
+        description: "CSS Gradient Generator"
+    },
+    {
+        name: "Snappify",
+        tag: { text: "Code", fontcolor: "#D805C6", backgroundcolor: "#D805C64D" },
+        image: "images/links/snappify.png",
+        link: "https://snappify.io",
+        description: "Generate beautiful images of your code"
+    },
+    {
+        name: "Paste",
+        tag: { text: "Code", fontcolor: "#D805C6", backgroundcolor: "#D805C64D" },
+        image: "images/links/paste.png",
+        link: "https://tranzystorek-io.github.io/paste/",
+        description: "Share code by base64 URLs"
+    },
+    {
+        name: "SVG Backgrounds",
+        tag: { text: "Generator", fontcolor: "#D805C6", backgroundcolor: "#D805C64D" },
+        image: "images/links/svg-backgrounds.png",
+        link: "https://www.svgbackgrounds.com/",
+        description: "Generate cool SVG backgrounds"
+    },
 ];
 

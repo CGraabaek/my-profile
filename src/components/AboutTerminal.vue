@@ -204,6 +204,10 @@
   font-size: 1.125rem;
 }
 
+.about-row{
+  margin-bottom: 10px;
+}
+
 
 /* The typing effect */
 @keyframes typing {
