@@ -1,15 +1,16 @@
 <template>
   <div class="page-container">
     <fancy-title :title="'Links'"></fancy-title>
-    <div class="links-container" >
-      <link-card v-for="link in links" 
-      v-bind:key="link.name"
-      :title="link.name"
-      :tag="link.tag.text"
-      :tagfontcolor="link.tag.fontcolor"
-      :tagcolor="link.tag.backgroundcolor"
-      :link="link.link"
-      :image="link.image"
+    <div class="links-container">
+      <link-card
+        v-for="link in links"
+        v-bind:key="link.name"
+        :title="link.name"
+        :tag="link.tag.text"
+        :tagfontcolor="link.tag.fontcolor"
+        :tagcolor="link.tag.backgroundcolor"
+        :link="link.link"
+        :image="link.image"
       ></link-card>
     </div>
   </div>

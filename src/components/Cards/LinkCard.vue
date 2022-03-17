@@ -18,7 +18,6 @@
             :fontcolor="tagfontcolor"
             :backgroundcolor="tagcolor"
           ></tag>
-          <!-- <p class="css-nv7hy7">2 months ago</p> -->
         </div>
       </div>
     </div></a
@@ -96,18 +95,14 @@ p {
   align-items: flex-start;
   flex-direction: column;
   width: 100%;
-  background: var(--transparent-bg);
-
-  /* background: #171923; */
+  background:var(--info-box-bg);
   border-radius: 0.75rem;
   border-width: 1px;
   border-style: solid;
   border-image: initial;
-  border-color: var(--transparent-bg);
-  /* border-color: var(--transparent-bg); */
-  /* border-color: #2d3748; */
+  border-color: var(--card-border-color);
   transition: all 0.25s ease 0s;
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  box-shadow: var(--card-box-shadow);
   overflow: hidden;
 }
 .image-container {
@@ -156,14 +151,11 @@ p {
   padding-inline-start: 1rem;
   padding-inline-end: 1rem;
   width: 100%;
-  background: #171923;
-  /* background: #171923; */
-  background: var(--transparent-bg);
-
+  background: var(--info-box-bg);
   border-width: 1px;
   border-style: solid;
   border-image: initial;
-  border-color: var(--transparent-bg);
+  border-color: var(--card-border-color);
 }
 
 .footer-row {
@@ -182,8 +174,4 @@ p {
   font-weight: 500;
 }
 
-.css-nv7hy7 {
-  font-size: 20px;
-  color: #a0aec0;
-}
 </style>

@@ -191,8 +191,6 @@ export default {
 }
 
 .image-background {
-  /* background: rgb(244, 220, 132);
-  border: 1px solid rgb(244, 220, 132); */
   position: absolute;
   inset: 0px;
   opacity: 0.25;
