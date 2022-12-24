@@ -56,7 +56,7 @@ export const projects = [
             text: "VueJS", fontcolor: "#41B883", backgroundcolor: "#41B88333"
         }],
         image: "images/projects/color-generator.png",
-        link: "https://polyline-encoder.grayriver.dk/",
+        link: "https://colors.grayriver.dk/",
         github: "",
         cardPosition: "right"
     },
