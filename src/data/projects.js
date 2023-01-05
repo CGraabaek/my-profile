@@ -39,6 +39,17 @@ export const projects = [
         cardPosition: "right"
     },
     {
+        name: "Tools",
+        description: "Tools that I often use during my work",
+        tags: [{
+            text: "VueJS", fontcolor: "#41B883", backgroundcolor: "#41B88333"
+        }],
+        image: "images/projects/tools.png",
+        link: "https://tools.grayriver.dk/",
+        github: "",
+        cardPosition: "left"
+    },
+    {
         name: "Polyline Encoder",
         description: "For another project I needed to be able to quickly show a route from a set of coordinates. That resulted in me building this quick polyline encoder, which works with a lot of maps, for plotting a route.",
         tags: [{
@@ -47,8 +58,9 @@ export const projects = [
         image: "images/projects/polyline-encoder.png",
         link: "https://polyline-encoder.grayriver.dk/",
         github: "",
-        cardPosition: "left"
+        cardPosition: "right"
     },
+
     {
         name: "Color Generator",
         description: "Often needing to get darker or lighter shades of a color for projects at work, I decided to build this tool to quickly help me,",
@@ -58,7 +70,7 @@ export const projects = [
         image: "images/projects/color-generator.png",
         link: "https://colors.grayriver.dk/",
         github: "",
-        cardPosition: "right"
+        cardPosition: "left"
     },
     {
         name: "Gwent Collector",
@@ -69,7 +81,7 @@ export const projects = [
         image: "images/projects/gwent.png",
         link: "https://gwent-collector.grayriver.dk",
         github: "",
-        cardPosition: "left"
+        cardPosition: "right"
     },
     {
         name: "My Website",
@@ -80,6 +92,6 @@ export const projects = [
         image: "images/projects/my-site.png",
         link: "https://grayriver.dk",
         github: "https://github.com/CGraabaek/my-profile",
-        cardPosition: "right"
+        cardPosition: "left"
     },
 ];
