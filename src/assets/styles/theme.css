@@ -67,7 +67,10 @@
     --gradient-color-1: #fe8c00;
     --gradient-color-2: #FC6601;
     --gradient-color-3: #f83600;
-    --transparent-bg: #17192333;
+    /* --transparent-bg: #17192333; */
+    /* --transparent-bg: #17262935; */
+    --transparent-bg: rgba(38, 41, 53, 0.4);
+
     --info-box-bg: #171923;
     --card-border-color: #17192333;
     /* --card-box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); */
