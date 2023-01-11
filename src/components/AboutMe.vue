@@ -7,15 +7,15 @@
         src="@/assets/profile.jpeg"
       />
     </div>
-    <div class="css-1s0vjvd">
-      <h2 class="chakra-heading moving-grad css-1pme72q">Hi, I'm Christian!</h2>
-      <p class="css-okjtgc">
+    <div class="profile-container">
+      <h2 class="page-title-gradient">Hi, I'm Christian!</h2>
+      <p class="profile-subtitle">
         Welcome to my website! I use this to show some of my
-        <a class="chakra-link css-duglel" href="/projects">projects</a>
+        <a class="highlight-text" href="/projects">projects</a>
         off, and test things out. You can see what
-        <a class="chakra-link css-duglel" href="/links"> websites</a>
+        <a class="highlight-text" href="/links"> websites</a>
         or the
-        <a class="chakra-link css-duglel" href="/tools"> tools</a>
+        <a class="highlight-text" href="/tools"> tools</a>
         that I like.
       </p>
     </div>
@@ -42,6 +42,15 @@
   margin: 50px;
 }
 
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  padding-left: 0px;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
 .profile-picture {
   object-fit: cover;
   flex-grow: 3;
@@ -59,25 +68,30 @@
   margin-bottom: 2.5rem;
 }
 
-.css-1pme72q {
+.page-title-gradient {
   font-weight: 700;
   font-size: 3rem;
   line-height: 1.33;
-  background-image: linear-gradient(to right, var(--gradient-color-1), var(--gradient-color-2), var(--gradient-color-3));
+  background-image: linear-gradient(
+    to right,
+    var(--gradient-color-1),
+    var(--gradient-color-2),
+    var(--gradient-color-3)
+  );
   color: transparent;
   background-clip: text;
   text-align: center;
   margin: unset;
 }
 
-.css-okjtgc {
+.profile-subtitle {
   max-width: 650px;
   text-align: center;
   font-size: 1.25rem;
   margin-top: 0.5rem;
 }
 
-.css-duglel {
+.highlight-text {
   transition-property: var(--chakra-transition-property-common);
   transition-duration: var(--chakra-transition-duration-fast);
   transition-timing-function: var(--chakra-transition-easing-ease-out);
@@ -88,13 +102,13 @@
   color: var(--link-color);
 }
 
-.css-duglel:hover,
-.css-duglel[data-hover] {
+.highlight-text:hover,
+.highlight-text[data-hover] {
   text-decoration: underline;
 }
 
 @media screen and (min-width: 48em) {
-  .css-1pme72q {
+  .page-title-gradient {
     line-height: 1.2;
   }
 }
@@ -103,12 +117,12 @@
   .about-me-container {
     flex-direction: row;
   }
-  .css-1pme72q {
+  .page-title-gradient {
     font-size: 4.5rem;
     text-align: left;
   }
 
-  .css-okjtgc {
+  .profile-subtitle {
     text-align: left;
   }
 }

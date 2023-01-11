@@ -1,6 +1,9 @@
 <template>
   <div class="page-container">
-    <fancy-title :title="'Links'"></fancy-title>
+    <div class="title">
+      <fancy-title :title="'Links'"></fancy-title>
+    </div>
+    
     <div class="links-container">
       <link-card
         v-for="link in links"
@@ -40,6 +43,11 @@ export default {
   text-align: center;
   padding-bottom: 25px;
 }
+
+.title {
+  text-align: center;
+}
+
 
 .links-container {
   display: grid;

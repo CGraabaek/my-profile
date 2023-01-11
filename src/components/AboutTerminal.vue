@@ -51,12 +51,12 @@
           </div>
           <p class="about-text">
             ["<a
-              style="color: #fc0df6; font-weight: 500"
+              style="color: #FD8B00; font-weight: 500"
               rel="noopener"
               href="https://www.linkedin.com/in/christian-graab%C3%A6k-steenfeldt-563879ab/"
               >LinkedIn</a
             >", "<a
-              style="color: #fc0df6; font-weight: 500"
+              style="color: #FD8B00; font-weight: 500"
               rel="noopener"
               href="https://github.com/cgraabaek"
               >Github</a
@@ -173,7 +173,8 @@
 
 .greater-than {
   margin-right: 0.5rem;
-  color: #fc0df6;
+  color: #F94600;
+  /* color: #fc0df6; */
   font-weight: 700;
 }
 

@@ -68,7 +68,7 @@ export const tools = [
         tagcolor: "#6CBC9C4D",
         tagfontcolor: "#6CBC9C",
         bgcolor: "#265A26",
-        image: "images/tools/iterm2.png",
+        image: "images/tools/shottr.png",
         link: "https://shottr.cc/",
     },
     {

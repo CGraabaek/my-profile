@@ -15,7 +15,11 @@
         <div class="css-1xpi9cw">
           <div class="chakra-stack css-84zodg">
             <p class="css-1lrrxdd">{{ this.title }}</p>
-            <tag :text="this.tag" :backgroundcolor="this.tagcolor" :fontcolor="this.tagfontcolor"></tag>
+            <tag
+              :text="this.tag"
+              :backgroundcolor="this.tagcolor"
+              :fontcolor="this.tagfontcolor"
+            ></tag>
           </div>
           <p class="sub-title">{{ this.sub_title }}</p>
         </div>
@@ -85,7 +89,7 @@ export default {
 .image-wrapper {
   display: grid;
   grid-template-columns: 85px 1fr;
-  /* background: #171923; */
+  /* background: #262935; */
   background: var(--transparent-bg);
   padding: 12px;
   height: 100%;
@@ -212,6 +216,8 @@ export default {
   display: flex;
   align-items: center;
   flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
 }
 
 body,
